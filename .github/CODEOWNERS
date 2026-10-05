@@ -1,0 +1,10 @@
+# Relecteurs obligatoires par zone du code.
+# Désigner de préférence une équipe GitHub d'au moins deux personnes, plutôt que des comptes individuels.
+# Remplacer __ORG__ et __TEAM__.
+
+# Par défaut : tout le repo
+*                 @mdabo-palo-it @shenchiri-palo
+
+# Zones critiques : pipeline, configuration, infrastructure
+/.github/         @mdabo-palo-it @shenchiri-palo
+/infra/           @mdabo-palo-it @shenchiri-palo
