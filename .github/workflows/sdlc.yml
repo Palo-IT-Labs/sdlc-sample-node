@@ -8,10 +8,11 @@ on:
     branches: [main]
   push:
     branches: [main]
-
+    
 permissions:
   contents: read
 
 jobs:
   sdlc:
     uses: Palo-IT-Labs/sdlc-blueprint/.github/workflows/sdlc.yml@main
+
